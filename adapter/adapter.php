@@ -51,4 +51,3 @@ class Adapter2 extends Adaptee2 implements Target2 { // 适配后角色
 $adapter = new Adapter2();
 $adapter->sampleMethod1();
 $adapter->sampleMethod2(); 
-?>

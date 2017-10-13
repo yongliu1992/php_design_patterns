@@ -24,4 +24,3 @@ class MyButtonFactory implements ButtonFactory{
 $button_obj = new MyButtonFactory();
 var_dump($button_obj->createButton('Mac'));
 var_dump($button_obj->createButton('Win'));
-?>

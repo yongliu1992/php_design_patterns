@@ -31,4 +31,3 @@ $abstraction->operation();
 
 $abstraction = new RefinedAbstraction(new ConcreteImplementorB());
 $abstraction->operation();
-?>
