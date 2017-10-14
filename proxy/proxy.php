@@ -1,4 +1,5 @@
 <?php
+//装饰器模式
 abstract class Subject { // 抽象主题角色
     abstract public function action();
 }
@@ -34,4 +35,3 @@ class ProxySubject extends Subject { // 代理主题角色
 $subject = new ProxySubject();
 $subject->action();
 
-?>

@@ -15,4 +15,3 @@ class Demo {}
 $demo = new Demo();
 $object1 = new ConcretePrototype($demo);
 $object2 = $object1->copy();
-?>

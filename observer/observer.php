@@ -61,4 +61,3 @@
 
     $ul->removeObserver('UserListLogger');//移除观察者
     $ul->sendMsg("hello");//发送消息到观察者
-?>

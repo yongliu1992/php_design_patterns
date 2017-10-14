@@ -34,4 +34,3 @@ $res_a = new ResponsibilityA();
 $res_b = new ResponsibilityB();
 $res_a->setNext($res_b);
 $res_a->operate();
-?>
